@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from 'react'
-import categoryApi from 'e:/financetracker/frontend/src/api/categoryApi.js'
 import CategoryForm from '../component/CategoryForm.jsx'
 import CategoryList from '../component/CategoryList.jsx'
 import Modal from '../component/Modal.jsx'
+import categoryApi from '../api/categoryApi.js'
 
 export default function Categories() {
   const [categories, setCategories] = useState([])
