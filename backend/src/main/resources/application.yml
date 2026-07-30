@@ -10,7 +10,6 @@ spring:
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
-
   jpa:
     hibernate:
       # Flyway manages the schema; Hibernate should only validate it.

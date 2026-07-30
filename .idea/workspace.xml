@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55852874-1021-4ab0-86ef-793a210fa5e7" name="Changes" comment="" />
+    <list default="true" id="55852874-1021-4ab0-86ef-793a210fa5e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="3GIiYpgvR0pFZWSBHP8pOVfIoDq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,13 +28,44 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BackendApplication.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/hp/Downloads/financetracker",
-    "onboarding.tips.debug.path": "C:/Users/hp/Downloads/FinanceTracker/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "E:/financetracker",
+    "onboarding.tips.debug.path": "C:/Users/hp/Downloads/FinanceTracker/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="BackendApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <envs>
+        <env name="CORS_ALLOWED_ORIGINS" value="http://localhost:5173" />
+        <env name="DB_HOST" value="dpg-d9ljtrh42hec739stg70-a.oregon-postgres.render.com" />
+        <env name="DB_NAME" value="finance_tracker_qli8" />
+        <env name="DB_PASSWORD" value="ygRYHgMonEDq2htmuiNQXKNkA1cTCO6p" />
+        <env name="DB_PORT" value="5432" />
+        <env name="DB_USERNAME" value="finance_tracker_qli8_user" />
+        <env name="JWT_EXPIRATION_MS" value="86400000" />
+        <env name="JWT_SECRET" value="c29tZS1zdXBlci1zZWNyZXQta2V5LWZvci1maW5hbmNlLXRyYWNrZXItand0LXNpZ25pbmctMjAyNg==" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.financetracker.backend.BackendApplication" />
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.financetracker.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="55852874-1021-4ab0-86ef-793a210fa5e7" name="Changes" comment="" />
